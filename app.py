@@ -262,14 +262,31 @@ with tab1:
               <!-- Orbit -->
               <ellipse cx="400" cy="220" rx="320" ry="50" fill="none" stroke="url(#orbitGlow)" stroke-width="2" stroke-dasharray="8 6" />
               <!-- Host Star -->
-              <circle cx="400" cy="220" r="70" fill="url(#starGlow)" />
+              <circle cx="400" cy="220" r="70" fill="url(#starGlow)">
+                <animate attributeName="r" values="69;71;69" dur="4s" repeatCount="indefinite" />
+              </circle>
               <!-- Transiting Planet -->
-              <circle cx="200" cy="204" r="16" fill="#050608" stroke="#66fcf1" stroke-width="2.5" />
+              <circle r="16" fill="#050608" stroke="#66fcf1" stroke-width="2.5">
+                <animate attributeName="cx" values="80;400;720;400;80" dur="8s" repeatCount="indefinite" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1" />
+                <animate attributeName="cy" values="220;270;220;170;220" dur="8s" repeatCount="indefinite" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1" />
+                <animate attributeName="r" values="16;18;16;12;16" dur="8s" repeatCount="indefinite" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1" />
+                <animate attributeName="opacity" values="1;1;1;0;0;1;1" dur="8s" repeatCount="indefinite" keyTimes="0;0.5;0.66;0.69;0.81;0.84;1" />
+              </circle>
               <!-- Scan lines -->
-              <line x1="200" y1="50" x2="200" y2="400" stroke="#66fcf1" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="3 3" />
-              <circle cx="200" cy="400" r="6" fill="#66fcf1" />
+              <line x1="200" y1="50" x2="200" y2="400" stroke="#66fcf1" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="3 3">
+                <animate attributeName="x1" values="80;400;720;400;80" dur="8s" repeatCount="indefinite" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1" />
+                <animate attributeName="x2" values="80;400;720;400;80" dur="8s" repeatCount="indefinite" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1" />
+                <animate attributeName="y1" values="220;270;220;170;220" dur="8s" repeatCount="indefinite" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1" />
+                <animate attributeName="y2" values="400;400;440;400;400;400" dur="8s" repeatCount="indefinite" keyTimes="0;0.20;0.25;0.30;0.50;1" calcMode="linear" />
+                <animate attributeName="stroke-opacity" values="0.4;0.4;0;0.4" dur="8s" repeatCount="indefinite" keyTimes="0;0.5;0.51;1" />
+              </line>
+              <circle cx="200" cy="400" r="6" fill="#66fcf1">
+                <animate attributeName="cx" values="80;400;720;400;80" dur="8s" repeatCount="indefinite" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1" />
+                <animate attributeName="cy" values="400;400;440;400;400;400" dur="8s" repeatCount="indefinite" keyTimes="0;0.20;0.25;0.30;0.50;1" calcMode="linear" />
+                <animate attributeName="fill-opacity" values="1;1;0;1" dur="8s" repeatCount="indefinite" keyTimes="0;0.5;0.51;1" />
+              </circle>
               <!-- Light curve plot at bottom -->
-              <path d="M 50,400 L 140,400 Q 170,400 185,440 L 215,440 Q 230,400 320,400 L 750,400" fill="none" stroke="#66fcf1" stroke-width="3" />
+              <path d="M 50,400 L 300,400 Q 350,400 375,440 L 425,440 Q 450,400 500,400 L 750,400" fill="none" stroke="#66fcf1" stroke-width="3" />
               <text x="420" y="120" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="14" letter-spacing="2" font-weight="bold">HOST STAR</text>
               <text x="75" y="170" fill="#66fcf1" font-family="'Space Grotesk', sans-serif" font-size="14" letter-spacing="2" font-weight="bold">TRANSITING PLANET</text>
               <text x="215" y="470" fill="#8892b0" font-family="'Space Grotesk', sans-serif" font-size="12">TRANSIT DEPTH (ppm)</text>
