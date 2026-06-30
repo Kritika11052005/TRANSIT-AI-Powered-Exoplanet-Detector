@@ -72,10 +72,6 @@ graph TD
     <td align="center" width="33%" style="border: none; padding: 15px; vertical-align: top;">
       <img src="https://img.icons8.com/color/96/000000/astronaut.png" width="80"><br>
       <strong>Kritika Benjwal</strong><br>
-      <small>Lead AI Engineer & Pipeline Architect</small><br>
-      <p style="font-size: 0.85em; color: #666; line-height:1.4; text-align: left; margin-top: 10px;">
-        Engineered the core PyTorch model integrating convolutional filters and multi-head attention. Built regression heads and compiled automated deployment pipelines using Docker.
-      </p>
       <hr style="border: 0; border-top: 1px solid #eee; margin: 8px 0;">
       <a href="https://github.com/Kritika11052005" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
       <a href="https://www.linkedin.com/in/kritika-benjwal" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a><br>
@@ -84,10 +80,6 @@ graph TD
     <td align="center" width="33%" style="border: none; padding: 15px; vertical-align: top;">
       <img src="https://img.icons8.com/color/96/000000/space-shuttle.png" width="80"><br>
       <strong>Sarthak Gupta</strong><br>
-      <small>Astrophysics & Signal Processing Lead</small><br>
-      <p style="font-size: 0.85em; color: #666; line-height:1.4; text-align: left; margin-top: 10px;">
-        Led physical signal pre-processing, detrending configurations (Wotan biweight optimization), and Transit Least Squares template alignment. Developed error budgets and performed EDA.
-      </p>
       <hr style="border: 0; border-top: 1px solid #eee; margin: 8px 0;">
       <a href="https://github.com/SarthakG1801" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
       <a href="https://www.linkedin.com/in/sarthakgupta1801" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a><br>
@@ -96,10 +88,6 @@ graph TD
     <td align="center" width="33%" style="border: none; padding: 15px; vertical-align: top;">
       <img src="https://img.icons8.com/color/96/000000/satellite.png" width="80"><br>
       <strong>Chaitanya Yadav</strong><br>
-      <small>Data Engineer & Deployment Specialist</small><br>
-      <p style="font-size: 0.85em; color: #666; line-height:1.4; text-align: left; margin-top: 10px;">
-        Collaborated on data pipeline optimization, detrending workflows, and model inference integrations. Managed repository synchronization and Hugging Face container configurations.
-      </p>
       <hr style="border: 0; border-top: 1px solid #eee; margin: 8px 0;">
       <a href="https://github.com/chaitanyayad" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
       <a href="https://www.linkedin.com/in/chaitanya-yadav-ba44503a9/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a><br>

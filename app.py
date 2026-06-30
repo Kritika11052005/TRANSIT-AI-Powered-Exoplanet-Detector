@@ -553,13 +553,8 @@ with tab5:
                 <img src="https://img.icons8.com/color/96/000000/astronaut.png" width="64">
                 <div>
                     <h4 style="margin: 0; color: #66fcf1;">Kritika Benjwal</h4>
-                    <p style="margin: 0; font-size: 0.9rem; color: #8892b0;">Lead AI Engineer & Pipeline Architect</p>
                 </div>
             </div>
-            <div class="glow-divider" style="margin: 15px 0;"></div>
-            <p style="font-size: 0.95rem; line-height: 1.6; min-height: 100px;">
-                Engineered the core PyTorch model integrating dual convolutional filters and multi-head attention mechanisms. Built the parameter regression heads and compiled automated deployment pipelines using Hugging Face Docker infrastructure.
-            </p>
             <div class="glow-divider" style="margin: 15px 0;"></div>
             <div class="social-container">
                 <a class="social-link" href="https://github.com/Kritika11052005" target="_blank">
@@ -585,13 +580,8 @@ with tab5:
                 <img src="https://img.icons8.com/color/96/000000/space-shuttle.png" width="64">
                 <div>
                     <h4 style="margin: 0; color: #66fcf1;">Sarthak Gupta</h4>
-                    <p style="margin: 0; font-size: 0.9rem; color: #8892b0;">Astrophysics & Signal Processing Lead</p>
                 </div>
             </div>
-            <div class="glow-divider" style="margin: 15px 0;"></div>
-            <p style="font-size: 0.95rem; line-height: 1.6; min-height: 100px;">
-                Led physical signal pre-processing, detrending configurations (Wotan biweight optimization), and Transit Least Squares template alignment. Developed error budgets and performed exploratory data analysis (EDA) to map transit classifications.
-            </p>
             <div class="glow-divider" style="margin: 15px 0;"></div>
             <div class="social-container">
                 <a class="social-link" href="https://github.com/SarthakG1801" target="_blank">
@@ -617,13 +607,8 @@ with tab5:
                 <img src="https://img.icons8.com/color/96/000000/satellite.png" width="64">
                 <div>
                     <h4 style="margin: 0; color: #66fcf1;">Chaitanya Yadav</h4>
-                    <p style="margin: 0; font-size: 0.9rem; color: #8892b0;">Data Engineer & Deployment Specialist</p>
                 </div>
             </div>
-            <div class="glow-divider" style="margin: 15px 0;"></div>
-            <p style="font-size: 0.95rem; line-height: 1.6; min-height: 100px;">
-                Collaborated on data pipeline optimization, detrending workflows, and model inference integrations. Managed repository synchronization, environment staging, and Hugging Face container configurations to ensure seamless application hosting.
-            </p>
             <div class="glow-divider" style="margin: 15px 0;"></div>
             <div class="social-container">
                 <a class="social-link" href="https://github.com/chaitanyayad" target="_blank">
