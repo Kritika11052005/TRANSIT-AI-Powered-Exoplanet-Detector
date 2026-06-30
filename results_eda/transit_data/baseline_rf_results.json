@@ -1,0 +1,28 @@
+{
+  "cv_macro_f1": 0.5557,
+  "per_class_f1": {
+    "EB": 0.6849,
+    "Other": 0.4938,
+    "Transit": 0.4884
+  },
+  "feature_names": [
+    "sde",
+    "snr",
+    "period",
+    "duration_hr",
+    "n_transits",
+    "true_depth_ppm",
+    "secondary_depth_ppm",
+    "has_secondary"
+  ],
+  "importances": [
+    0.149321,
+    0.194687,
+    0.136468,
+    0.125374,
+    0.091057,
+    0.178992,
+    0.107658,
+    0.016442
+  ]
+}

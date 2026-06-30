@@ -1,0 +1,9 @@
+streamlit
+numpy
+matplotlib
+torch
+scikit-learn
+lightkurve
+wotan
+transitleastsquares
+batman-package

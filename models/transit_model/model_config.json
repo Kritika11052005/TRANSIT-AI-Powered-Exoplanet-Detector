@@ -1,0 +1,39 @@
+{
+  "NB01_DIR": "/kaggle/input/notebooks/kritikabenjwal/transit-eda-detection/transit_data",
+  "OUT_DIR": "/kaggle/working/transit_model",
+  "N_CLASSES": 3,
+  "N_BINS": 200,
+  "N_SCALAR": 8,
+  "N_REG": 3,
+  "CNN_CHANNELS": [
+    32,
+    64,
+    128
+  ],
+  "CNN_KERNELS": [
+    7,
+    5,
+    3
+  ],
+  "TF_D_MODEL": 128,
+  "TF_N_HEADS": 1,
+  "TF_N_LAYERS": 1,
+  "TF_DIM_FF": 256,
+  "MLP_HIDDEN": [
+    32,
+    64
+  ],
+  "FUSION_HIDDEN": 64,
+  "DROPOUT": 0.5,
+  "REG_LOSS_WEIGHT": 0.3,
+  "PHYSICS_LOSS_WEIGHT": 0.15,
+  "LR": 0.001,
+  "WEIGHT_DECAY": 0.0001,
+  "EPOCHS": 200,
+  "PATIENCE": 30,
+  "BATCH_TRAIN": 16,
+  "BATCH_EVAL": 32,
+  "LABEL_SMOOTHING": 0.05,
+  "CV_FOLDS": 5,
+  "SEED": 42
+}
