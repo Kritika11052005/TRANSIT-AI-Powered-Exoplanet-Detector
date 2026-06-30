@@ -510,7 +510,7 @@ with tab4:
             <a href="https://www.kaggle.com/code/kritikabenjwal/transit-model-training" target="_blank" style="text-decoration:none;">
                 <button style="background-color: #20bead; color: white; border: none; padding: 12px 35px; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 1rem; width: 350px;">📘 Kaggle Notebook 2: Model Training</button>
             </a>
-            <a href="https://github.com/Kritzzz11/TRANSIT" target="_blank" style="text-decoration:none;">
+            <a href="https://github.com/Kritika11052005/TRANSIT-AI-Powered-Exoplanet-Detector" target="_blank" style="text-decoration:none;">
                 <button style="background-color: #24292e; color: white; border: 1px solid #c5c6c7; padding: 12px 35px; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 1rem; width: 350px;">🐙 GitHub Code Repository</button>
             </a>
             <a href="https://huggingface.co/spaces/Kritzzz11/transit-exoplanet-detector" target="_blank" style="text-decoration:none;">
